@@ -1,13 +1,13 @@
 ESRI Service Walker
 
-Makes a request to the root of an ESRI RESt Service and retuns an array of service meta indexed by url.
+Walks an ESRI ARCGIS REST service and returns a service index.
 
 ```
-var walker = require(esri-service-walker);
+    'use strict';
+    var getCalatog = require('./');
 
-walker.walk('http://acme.com/arcgis/rest/services', function (err, data) {
-    
-});
+    getCalatog('http://myserver.com/arcgis/rest/service', function (err, catalog) {
+        console.log(JSON.stringify(catalog));
+    });
 
 ```
-

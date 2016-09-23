@@ -1,14 +1,15 @@
 {
-  "name": "esri-service-walker",
+  "name": "esri-service-catalog",
   "version": "1.0.0",
   "description": "ESRI Service Walker",
   "main": "index.js",
+  "bin" : { "esri-catalog" : "./cli.js" },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["esri", "arcgis", "catalog"],
+  "author": "yves.richard@tesera.com",
+  "license": "MIT",
   "dependencies": {
     "co": "^4.6.0",
     "co-request": "^1.0.0"
