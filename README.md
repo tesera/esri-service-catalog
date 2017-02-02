@@ -1,4 +1,4 @@
-ESRI Service Catalog
+#ESRI Service Catalog
 
 This tool is shipped with a module and a CLI. You can import the module directly in your project or use the CLI directly. The library will walk an ArcGIS endpoint and harvest metadata into a single JSON file.
 
